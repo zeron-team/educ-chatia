@@ -1,4 +1,4 @@
-# Sistema de ChatIA de Educar
+# Sistema de ChatIA
 
 ## Tecnologias
 OS: Debian
