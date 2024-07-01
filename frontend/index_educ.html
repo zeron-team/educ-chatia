@@ -1,0 +1,46 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat IA</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <header>
+        <img src="/static/static/img/logo-educar.png" alt="Logo Ministerio de Capital Humano" class="logo">
+        <h1>Chat IA</h1>
+    </header>
+    <main>
+        <div id="chat-container">
+            <div id="chat-window">
+                <div id="chat-box" class="chat-box"></div>
+            </div>
+            <form id="chat-form" class="chat-form">
+                <input id="message-input" class="message-input" type="text" placeholder="Escribe tu mensaje..." required>
+                <button type="submit">Enviar</button>
+                <button type="button" id="clear-button">Limpiar</button>
+            </form>
+            <form id="upload-form" class="upload-form">
+                <input id="video-input" type="file" accept="video/*" required>
+                <button type="submit">Subir Video</button>
+            </form>
+            <div class="progress-container">
+                <div class="progress-title">Progreso</div>
+                <div class="progress-bar" id="progress-bar">
+                    <div class="progress-fill" id="progress-bar-fill"></div>
+                </div>
+                <div id="loader"><img src="/static/static/img/loader.gif" alt="Loading..."></div>
+            </div>
+            <div id="result-container"></div>
+        </div>
+    </main>
+    <footer>
+        <img src="/static/static/img/logo-educar-footer.svg" alt="Logo Educar" class="footer-logo left">
+        <p>&copy; 2024 Ministerio de Capital Humano. Todos los derechos reservados.</p>
+        <img src="/static/static/img/MCH_logo.png" alt="Logo MCH" class="footer-logo right">
+    </footer>
+    <script src="/static/script.js"></script>
+</body>
+</html>
