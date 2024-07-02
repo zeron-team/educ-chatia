@@ -8,6 +8,7 @@ Lenguage:
 
 
 ## Estructura
+´´´txt
 chatia
 |__ README.md
 |__ backend
@@ -23,6 +24,7 @@ chatia
 |   |   |__ js
 |   |   |__ img
 |__ rus.sh    
+´´´
 
 ## Requerimientos
 
